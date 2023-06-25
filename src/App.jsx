@@ -1,8 +1,20 @@
 import React from 'react'
+import Header from './components/Header'
+import Screen from './components/Screen'
+
+import './App.css'
 
 const App = () => {
   return (
-    <div>App</div>
+    <main>
+      <div className="main">
+        <div className="gradient"/>
+        </div>
+        <div className="app">
+          <Header/>
+          <Screen/>
+      </div>
+    </main>
   )
 }
 
