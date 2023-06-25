@@ -7,7 +7,7 @@ const Header = () => {
       <nav className='flex justify-between items-centerm w-full mb-10 pt-5'>
         <a href="#" className="w-28 object-contain font-bold text-xl hover:text-red-600">Summarize</a>
         <button type='button'
-        onClick={()=>window.open('https://www.youtube.com/')}
+        onClick={()=>window.open('https://gitlab.com/clopx/Summary')}
         >
           <img src={gitlab} alt="gitlab" className='w-12'/>
         </button>
